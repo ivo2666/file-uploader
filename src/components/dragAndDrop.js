@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 
 export const DragAndDrop = (props) => {
-    const [dragging,setDragging] = useState(false);
+    const [dragging,setDragging] = useState(true);
     const dropRef = useRef();
 
     const handleDrag = (e) => {
